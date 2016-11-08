@@ -1,0 +1,91 @@
+.login{
+	background-image: url("../images/fondo.png");
+	color: #ffffff;
+}
+.content{
+	height: 460px; 
+	color: #ffffff;
+}
+.loginRegister > a{
+	float:right;
+	color: #ffffff;
+}
+.logoW > img{
+	padding-left: 26%;
+}
+.title{
+	padding-top: 4%;
+	text-align: center;
+	font-size: 2.2rem;
+}
+.user{
+	padding-top: 43%;	
+}
+.user > input{
+	background: none;
+	border-top:none;
+	border-left: none;
+	border-right: none;
+	border-color:#ffffff;
+	width: 90%;	
+}
+.buttonLogin{
+	padding-top: 30%;
+	padding-left: 30%;
+}
+.buttonLogin > button{
+	border-radius: 36px;
+	margin-top: 10px !important;
+	color: #ffffff;
+	font-size: 1.5rem;
+	font-weight: bold;
+	background: none;
+	border-color: #ffffff;
+	box-shadow: none;
+	width: 150px;
+	height: 40px;
+}
+.selectImage{
+	padding-top: 15%;
+}
+.table{
+	margin-left: 2%;
+	padding-top: 10%;
+}
+.img{
+	width: 75%;
+}
+.table2{
+	margin-top: 5%;
+}
+.pass{
+	margin-top: 15%;	
+}
+.pass > input{
+	background: none;
+	border-top:none;
+	border-left: none;
+	border-right: none;
+	border-color:#ffffff;
+	width: 90%;
+}
+.remember{
+	margin-top: 2%;
+	float:right;
+	padding-right: 10%;
+}
+.enter{
+	margin-top: 25%;
+	padding-left: 27%;	
+}
+.enter > button{
+	border-radius: 36px;
+	color: #ffffff;
+	font-size: 1.5rem;
+	font-weight: bold;
+	background: none;
+	border-color: #ffffff;
+	box-shadow: none;
+	width: 150px;
+	height: 40px;
+}

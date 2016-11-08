@@ -1,0 +1,68 @@
+#register{
+	background-image: url("../images/fondo.png") !important;
+	padding-left: 10px;
+	height: 651px;
+}
+.registerHeader{
+	margin-top: 6%;
+	color:#ffffff;
+}
+.regis{
+	font-size: 4rem;
+}
+.stepLeft{
+	float:left;
+}
+.registerContent{
+	padding-bottom: 6%;
+}
+.activationCode{
+	padding-top: 7%;
+}
+.textWhite{
+	color: #ffffff;
+	font-weight: bold;
+}
+.inputCode{
+	padding-top: 7%;
+}
+.inputCode > input{
+	background: none;
+	border-top:none;
+	border-left: none;
+	border-right: none;
+	border-color:#ffffff;
+	width: 93%;
+}
+.code{
+	padding-top: 2%;
+	padding-left: 10%;
+	color: #ffffff;
+}
+.barButton{
+	padding-top: 7%;
+}
+.buttonFollow > button{
+	border-radius: 36px;
+	margin-top: 10px !important;
+	color: #ffffff;
+	font-size: 1.5rem;
+	font-weight: bold;
+	background: none;
+	border-color: #ffffff;
+	box-shadow: none;
+	width: 150px;
+	height: 40px;
+}
+.buttonBack > button{
+	border-radius: 36px;
+	margin-top: 10px !important;
+	color: #ffffff;
+	font-size: 1.5rem;
+	font-weight: bold;
+	background: none;
+	border-color: #ffffff;
+	box-shadow: none;
+	width: 170px;
+	height: 40px;
+}

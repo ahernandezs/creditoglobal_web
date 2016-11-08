@@ -1,0 +1,18 @@
+<div>
+	<div ng-include="'views/partials/layout/header.html'"></div>
+	<div ng-include="'views/partials/account/account-header.html'"></div>
+	<div class="cardDetail">
+		<br/>
+		<div ng-include src="'views/partials/account/card.html'"></div>
+		<div class="row">
+			<div class="col-md-3"><br/></div>
+			<div class="contentAccount col-md-8">
+				<input type="text" class="form-control search" placeholder="Buscar Movimientos">
+				<br/>
+				<div ng-include src="'views/partials/account/accountDetail.html'"></div>
+			</div>
+			<div class="col-md-1"><br/></div>
+		</div>
+		<div ng-include src="'views/partials/layout/footer.html'"></div>
+	</div>
+</div>

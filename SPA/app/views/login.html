@@ -1,0 +1,23 @@
+<div>
+	<div class="login row">
+        <div class="col-md-1"><br/></div>
+        <div class="col-md-10">
+            <br/>
+            <div ng-include="'views/partials/login/login-header.html'"></div>
+            <div class="col-md-4"><br/></div>
+            <div class="content col-md-4">
+                <div ng-switch on="selection">
+                    <div class="animate-switch" ng-switch-when="0">
+                        <div ng-include="'views/partials/login/user.html'"></div>
+                    </div>
+                    <div class="animate-switch" ng-switch-when="1">
+                        <div ng-include="'views/partials/login/select-image.html'"></div>
+                    </div>        
+                </div>  
+            </div>
+            <div class="col-md-4"><br/></div>
+        </div>
+        <div class="col-md-1"><br/></div>
+    </div>
+    <div ng-include src="'views/partials/layout/footer.html'"></div>
+</div>

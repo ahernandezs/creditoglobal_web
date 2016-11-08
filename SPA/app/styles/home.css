@@ -1,0 +1,141 @@
+#home{
+	width: 100%;
+	height: 100%;
+}
+.Body{
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-image: url("../images/fondoHome.png");
+	background-size: cover;
+	margin: 0 auto;
+	background-color: #483D8B;
+	color:white;	
+}
+.Discover, .Enjoy1{
+	padding-top: 5%;
+}
+.Discover{
+	font-size: 3rem;
+	font-weight: bold;
+}
+.Enjoy{
+	margin-right: 2%;
+}
+.Enjoy1 > span{
+	float:right;
+	font-size: 1.7rem;
+}
+.small{
+	font-size: 1.2rem !important;
+}
+.Enjoy2{
+	padding-bottom: 6%;
+}
+.contacts{
+	float:left;
+	background-color: #3e3e3e;
+	color:white;	
+}
+.contacts > span{
+	margin-left: 21%;
+	color: #a1a1a1;
+}
+.help{
+	background-color: #3e3e3e;	
+}
+.help > span{
+	float:right;
+	padding-right: 2%;
+	margin-right: 21%;
+	color: #a1a1a1;
+}
+.navbar{
+	margin-bottom: 0 !important;
+}
+.navbar-brand{
+	padding: 0 !important;
+}
+.navbar-header{
+	margin-left: 10% !important;
+}
+.navbar-header > img{	
+	height: 25% !important;	
+}
+.buttons{
+	margin-right: 10% !important;
+}
+.homeLogin > button{
+	border-radius: 36px;
+	margin-top: 10px !important;
+	color: #047597;
+	background: none;
+	border-color: #047597;
+	box-shadow: none;
+	width: 130px;
+	height: 30px;
+}
+.signup > a{
+	margin-right: 55px;
+	color: #047597 !important;
+}
+.Google{
+	width: 95px !important;
+	height: 100%;
+	padding-top: 5%;
+	float:right;
+}
+.Apple{
+	width: 95px !important;
+	height: 100%;
+	padding-top: 5%;
+	float: right;
+	margin-right: 10%;
+}
+.Information{
+	background-color: #4682B4;
+	color:white;
+}
+.Header{
+	width: 100%;
+	height:100%;	
+}
+.credit, .logo{
+	background-color: #3e3e3e;
+	height: 20px;
+}
+.credit > span{	
+	color: #8d8d8d;
+	font-size: 1.2rem;
+}
+.consult, .check, .phone{
+	background-color: #047597;
+	color: #ffffff;
+	margin-top: 46px;
+	float:left;
+	padding-top: 20px;
+}
+.consult1 > img{
+	float: right;
+}
+.check1 > img{
+	float:right;
+}
+.phone1 > img{
+	float:right;
+}
+.letter{
+	font-size: 2rem;
+}
+#homeFooter{
+	height: 140px;
+	background-color: #047597;
+	padding-bottom: 200px;
+}
+.trusteer, .ipab{
+	float:right;
+}
+.ipab{
+	width: 5%;
+	margin-right: 3%;
+}
