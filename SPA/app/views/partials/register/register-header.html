@@ -1,15 +1,43 @@
 <div class="registerHeader row">
+		<div class="row">
+			<div class="col-md-1"><br/></div>
+			<div class="col-md-5">
+				<span class="regis">Registro</span><br/><br/>
+			</div>
+			<div class="col-md-6"><br/></div>
+		</div>
 		<div class="col-md-1"><br/></div>
-		<div class="col-md-5">
-			<span class="regis">Registro</span><br/><br/>
+		<div class="col-md-5">			
 			<span>Completa tu registro en 4 sencillos pasos para<br/>
 			poder disfrutar los beneficios de cr&eacute;dito global.</span><br/>
 		</div>
-		<div class="stepsLeft col-md-5 ">
-			<span>1</span>
-			<span>2</span>
-			<span>3</span>
-			<span>4</span>
+		<div class="col-md-5">
+			<div ng-switch on="step">
+           		<div class="animate-switch" ng-switch-when="0">
+            		<div class="numbers">
+						<span class="stepNumber">1</span>
+						<span>2</span>
+						<span>3</span>
+						<span>4</span>
+					</div>   		
+            	</div>
+            	<div class="animate-switch" ng-switch-when="1">
+               		<div class="numbers">
+						<span class="stepNumber">1</span>
+						<span class="stepNumber">2</span>
+						<span>3</span>
+						<span>4</span>
+					</div> 
+            	</div>            
+        		<div class="animate-switch" ng-switch-when="2">
+               		<div class="numbers">
+						<span class="stepNumber">1</span>
+						<span class="stepNumber">2</span>
+						<span class="stepNumber">3</span>
+						<span>4</span>
+					</div> 
+            	</div>
+           	</div>
 		</div>
 		<div class="col-md-1"><br/></div>
 </div>

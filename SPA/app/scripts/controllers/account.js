@@ -5,4 +5,7 @@ angular.module('spaApp').controller('AccountCtrl', ['$scope' ,'$location', funct
 	$scope.gotoHome=function(){
         $location.path('/home');
     };
+    $scope.changePass=function(){
+    	$location.path('/settings');
+    };
 }]);

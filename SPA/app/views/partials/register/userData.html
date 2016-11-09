@@ -2,15 +2,19 @@
 	<div class="row">
 		<div class="col-md-4"><br/></div>
 		<div class="col-md-4">
-			<span>DATOS DE USUARIO</span><br/>
-			<input type="text" value="Nombre de usuario" /><br/>
-			<input type="text" value="Contraseña" /><br/>
-			<input type="text" value="Confirmar contraseña" /><br/>	
-			<div class="col-md-6">
-				<button>REGRESAR</button>
+			<div class="space row"> <span class="titleRegister titleCardData">DATOS DE USUARIO</span><br/></div>
+			<div class="inputCode row">
+				<input class="space3" type="text" placeholder="Nombre de usuario" /><br/>
+				<input class="space2" type="text" placeholder="Contraseña" /><br/>
+				<input class="space2" type="text" placeholder="Confirmar contraseña" /><br/>	
 			</div>
-			<div class="col-md-6">
-				<button ng-click="completeStep(3)">SIGUIENTE</button>
+			<div class="barButton3 row">
+				<div class="buttonFollow col-md-6">
+					<button ng-click="completeStep(1)">REGRESAR</button>
+				</div>
+				<div class="buttonFollow col-md-6">
+					<button ng-click="completeStep(3)">SIGUIENTE</button>
+				</div>
 			</div>
 		</div>
 		<div class="col-md-4"><br/></div>

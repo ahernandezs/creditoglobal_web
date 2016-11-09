@@ -15,7 +15,7 @@
 	font-size: 1.8rem;
 }
 .textAcc{
-	color: #3e3e3e;
+	color: #c9c9c9;
 	font-size: 1rem;
 }
 .settings > img{
@@ -24,13 +24,17 @@
 }
 .cardDetail{
 	background-color: #F0F8FF;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 .imgCard > img{
 	width: 215px;
 	height: 108px;
 }
 .search{
-	width: 75%;
+	width: 80%;
 	margin-left: 2%;
 }
 .titleTable{
@@ -44,10 +48,11 @@
 	padding-right: 5% !important;
 }
 .detail{
-	padding-bottom: 2%;
+	padding-bottom: 0.5%;
 }
 .cardDate{
 	font-size: 1.2rem;
+	color: #333333;
 }
 .cardTitle{
 	font-size: 2.2rem;
@@ -58,4 +63,22 @@
 }
 .cardAmount{
 	font-size: 4.2rem;
+}
+.imgSearch{
+	background-image: url('../images/Magnifiercopia.png');
+	background-repeat: no-repeat;
+	background-position: left center;
+	padding-left: 2%;
+}
+.imgSearch[type:text]:focus{
+	background-color: #ffffff;
+	background-image: url('../images/Magnifiercopia.png');
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+.tablePadding{
+	width: 95% !important;
+}
+.imgDown{
+	padding-top: 7%;
 }

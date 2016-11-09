@@ -1,17 +1,32 @@
+input::-webkit-input-placeholder {
+  color: #c9c9c9;
+}
+input:-moz-placeholder {
+  color: #c9c9c9; 
+}
+input:-ms-input-placeholder { 
+  color: #c9c9c9; 
+}
 .login{
 	background-image: url("../images/fondo.png");
 	color: #ffffff;
 }
 .content{
-	height: 460px; 
+	height: 459px; 
 	color: #ffffff;
 }
 .loginRegister > a{
 	float:right;
 	color: #ffffff;
 }
+.loginBack > a{
+	color: #ffffff;
+}
+.imgSize{
+	width:5%;
+}
 .logoW > img{
-	padding-left: 26%;
+	padding-left: 30%;
 }
 .title{
 	padding-top: 4%;

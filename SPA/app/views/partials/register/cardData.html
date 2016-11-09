@@ -2,19 +2,25 @@
 	<div class="row">
 		<div class="col-md-4"><br/></div>
 		<div class="col-md-4">
-			<span>DATOS DE TARJETA</span><br/>
-			<input type="text" value="Ingresa los 16 d&iacute;gitos de tu tarjeta" maxlength="16" /><br/>
-			<div class="col-md-6">
-				<input type="text" value="MM/AA" />
+			<div class="titleRegister titleCardData"><span>DATOS DE TARJETA</span><br/></div>
+			<div class="space inputCode row">
+				<input type="text" placeholder="Ingresa los 16 d&iacute;gitos de tu tarjeta" maxlength="16" /><br/>
 			</div>
-			<div class="col-md-6">
-				<input type="password" value="CVV" />
-			</div><br/><br/>
-			<div class="col-md-6">
-				<button>REGRESAR</button>
+			<div class="space row">
+				<div class="inputPass col-md-6">
+					<input type="text" placeholder="MM/AA" />
+				</div>
+				<div class="inputPass col-md-6">
+					<input type="password" placeholder="CVV"><img class="imgInfo" src="images/info_icon.png" alt="info"/></input>
+				</div><br/><br/>
 			</div>
-			<div class="col-md-6">
-				<button ng-click="completeStep(2)">SIGUIENTE</button>
+			<div class="barButton2 row">
+				<div class="buttonFollow col-md-6">
+					<button ng-click="completeStep(0)">REGRESAR</button>
+				</div>
+				<div class="buttonFollow col-md-6">
+					<button ng-click="completeStep(2)">SIGUIENTE</button>
+				</div>
 			</div>
 		</div>
 		<div class="col-md-4"><br/></div>
