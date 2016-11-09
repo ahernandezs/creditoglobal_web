@@ -1,11 +1,23 @@
 #register{
-	background-image: url("../images/fondo.png") !important;
+	background: url("../images/fondo.png") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	/*background-image: url() !important;
 	padding-left: 10px;
-	height: 651px;
+	height: 651px;*/
 }
 .registerHeader{
 	margin-top: 6%;
 	color:#ffffff;
+}
+.titleRegister{
+	padding-top: 4%;
+	font-size: 2rem;
+	color: #ffffff;
+	font-weight: bold;
+	padding-left: 5%;
 }
 .regis{
 	font-size: 4rem;
@@ -15,13 +27,6 @@
 }
 .registerContent{
 	padding-bottom: 6%;
-}
-.activationCode{
-	padding-top: 7%;
-}
-.textWhite{
-	color: #ffffff;
-	font-weight: bold;
 }
 .inputCode{
 	padding-top: 7%;
@@ -65,4 +70,61 @@
 	box-shadow: none;
 	width: 170px;
 	height: 40px;
+	margin-left: 27%;
+}
+.space{
+	padding-top: 10%;
+}
+.space2{
+	padding-top: 9%;
+}
+.inputPass > input{
+	padding-top: 2%;
+	background: none;
+	border-top:none;
+	border-left: none;
+	border-right: none;
+	border-color:#ffffff;
+	width: 85%;
+}
+.titleCardData{
+	padding-left: 18% !important;
+}
+.barButton2{
+	padding-top: 28%;
+}
+.footPad{
+	padding-top: 0.5%;
+}
+.table3{
+	margin-top: 10%;
+	border: none;
+	margin-left: 10%;
+}
+.table4{
+	margin-top: 5%;
+	margin-left: 10%;
+}
+.space3{
+	padding-top: 5%;
+}
+.barButton3{
+	padding-top: 10%;
+}
+.numbers{
+	float:right;
+}
+.numbers > span {
+	border: 2px solid #ffffff;
+	border-radius: 50%;
+	padding-right: 5px;
+    padding-left: 5px;
+    padding-top: 4px;
+    padding-bottom: 2px;
+    margin-right: 7px;
+}
+.stepNumber{
+	color: #034f8c;
+    background-color: #ffffff;
+    border: 2px solid #034f8c;
 }

@@ -1,0 +1,61 @@
+.backSettings{
+	background-color: #F0F8FF;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.confPass{
+	padding-top: 7%;
+    font-size: 2rem;
+}
+.setPass{
+	font-size: 1.5rem;
+}
+.contentPass{
+	padding-left: 5%;
+	background-color: #ffffff;
+	border: 1px solid #c9c9c9;
+}
+.passContent > span{
+	padding-left: 31%;
+}
+.titlePass{
+	padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 4%;
+	border-bottom: 1px solid #c9c9c9;
+	width: 104%;
+}
+.buttonPass{
+	padding-top: 12%;
+    padding-bottom: 12%;
+    padding-left: 31%;
+}
+.buttonPass > button{
+	border-radius: 36px;
+	margin-top: 10px !important;
+	color: #047597;
+	background: none;
+	border-color: #047597;
+	box-shadow: none;
+	width: 130px;
+	height: 30px;
+}
+.spaceSettings{
+	background-color: #F0F8FF;
+	padding-bottom: 55%;
+}
+.spaceSettings2{
+	background-color: #F0F8FF;
+	padding-bottom: 31%;
+}
+.passContent{
+	padding-top: 10%;
+}
+.passContent2{
+	padding-top: 5%;
+}
+.inputCode2 > input{
+	border-color: #c9c9c9 !important;
+}
